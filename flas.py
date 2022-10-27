@@ -17,7 +17,7 @@ def post_details():
     newmodel=pickle.load(savedmodel)
 
 
-    myvalues=[[20, 0 ,3, 100 ,100, 0 , 1 ,100]]
+    myvalues=[[20, 0 ,3, 100 ,100,0,1,100]]
     
     #predict the outcome of your value(s)
     predicted=newmodel.predict(mine)
